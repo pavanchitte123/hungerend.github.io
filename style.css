@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F8F8;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    /* margin: 10px; */
+    background-color: #007791;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 15px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list a {
+    padding: 10px 20px;
+}
+.active{
+    color: red;
+}
+
+header a {
+    color: white;
+}
+
+.nav-btn .btn {
+    background-color: yellow;
+    border: yellow;
+    color: black;
+    padding: 10px;
+}
+
+/* __________________________________ */
+
+.About {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About {
+    padding: 15px;
+    background-image: url('/chefbg1.jpg');
+    opacity: 0.75;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg h2 {
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    opacity: none;
+}
+
+.About p {
+    padding: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+/* ____________________________________ */
+.pos {
+    position: absolute;
+    right: 80px;
+    top: 480px;
+}
+
+.relative {
+    width: 100%;
+    display: flex;
+}
+
+.relative .mission {
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.mission button,
+.news button {
+    background-color: #f5f5f5;
+    border: none;
+    color: #43B3AE;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.relative button:hover {
+    color: red;
+}
+
+.relative .take {
+    width: 30%;
+    text-align: center;
+    padding: 50px;
+    background-color: #fd5c63;
+}
+
+.relative p {
+    margin: 10px 50px;
+}
+
+.take h2 {
+    font-family: cursive;
+    color: white;
+}
+
+.take button {
+    color: #fd5c63;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.relative h2 {
+    font-family: cursive;
+
+}
+
+.relative .news {
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #43B3AE;
+    color: white;
+}
+
+.relative .subcribe {
+    width: 30%;
+    text-align: center;
+    padding: 50px;
+    background-color: #367588;
+    color: white;
+}
+
+.subcribe button {
+    color: #fd5c63;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.subcribe button:hover {
+    background-color: #E8E8E8;
+}
+
+.news button {
+    background-color: #43B3AE;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.subcribe h5 {
+    margin: 20px 0px;
+    color: #c0c0c0;
+}
+
+.subcribe input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #c0c0c0;
+    background-color: #367588;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.subcribe ::placeholder {
+    color: #c0c0c0;
+}
+
+.subcribe button {
+    background-color: #367588;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* __________________________________ */
+
+.about {
+    text-align: center;
+    position: relative;
+    top: 480px;
+}
+
+.about {
+    padding: 40px 15px;
+}
+
+.about .wrapper {
+    width: 70%;
+}
+
+.about h2 {
+    font-family: cursive;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.card-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.details {
+    border: 1px solid #c0c0c0;
+}
+
+.blank img {
+    width: 100%;
+}
+
+
+.about h2,
+h4 {
+    word-spacing: 5px;
+    font-family: cursive;
+    margin: 15px 0px;
+    font-weight: bold;
+    color: #007791;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+.details .btn {
+    font-family: cursive;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 40px 0px;
+    box-shadow: 1px 5px 15px grey;
+
+}
+
+.details .btn:hover {
+    background-color: #c0c0c0;
+    color: red;
+    box-shadow: 1px 5px 15px red;
+}
+
+/* _____________________________ */
+
+.donate {
+    text-align: center;
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    top: 480px;
+    background-image: url('/chefbg1.jpg');
+    opacity: 0.75;
+    background-size: cover;
+}
+
+.dn {
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 30px 50px;
+}
+
+.dn button {
+    background-color: black;
+    font-family: cursive;
+    border: none;
+    color: red;
+    padding: 5px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px red;
+}
+
+.dn button:hover {
+    background-color: grey;
+    color: red;
+}
+
+/* _____________________________________ */
+
+.letest .wrapper {
+    width: 70%;
+}
+
+.letest {
+    text-align: center;
+    position: relative;
+    top: 480px;
+}
+
+.list-card {
+    display: flex;
+}
+
+.crd .box {
+    margin: 10px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.crd {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.letest h2 {
+    font-family: cursive;
+    word-spacing: 5px;
+    margin-top: 55px;
+}
+
+.ltnes p {
+    text-align: left;
+    color: #367588;
+}
+
+.list-card p {
+    text-align: left;
+    color: #367588;
+}
+
+/* _________________________________ */
+
+.contact {
+    text-align: center;
+    position: relative;
+    top: 480px;
+    background-color: #E8E8E8;
+}
+
+.contact .wrapper {
+    width: 70%;
+}
+
+.contact {
+    text-align: center;
+    position: relative;
+    top: 480px;
+}
+
+.list-crd {
+    display: flex;
+}
+
+.crd1 {
+    width: 33.33%;
+    padding-bottom: 56px;
+    margin: 0px 20px;
+}
+
+.contact h2 {
+    font-family: cursive;
+    text-align: left;
+    word-spacing: 5px;
+    margin-top: 55px;
+}
+
+.ltnes p {
+    text-align: left;
+    color: black;
+}
+
+.ltnes ::placeholder {
+    background-color: #E8E8E8;
+    font-family: cursive;
+
+    color: black;
+}
+
+.ltnes button {
+    background-color: #E8E8E8;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.ltnes button:hover {
+    color: red;
+}
+
+.ltnes input {
+    outline: 0;
+    padding: 5px;
+    border-width: 0 0 1px;
+    background-color: #E8E8E8;
+    cursor: pointer;
+}
+
+.crd p input {
+    outline: 0;
+    border-width: 0 0 1px;
+    cursor: pointer;
+    background-color: #F8F8F8;
+}
+
+/* ______________________ */
+.foot {
+    text-align: center;
+    position: relative;
+    top: 480px;
+    background-color: #00A3A3;
+}
+
+.lastdiv p {
+    font-family: cursive;
+    padding: 20px 0px;
+}
+
+/* _______________________________ */
+.footer {
+    text-align: center;
+    position: relative;
+    top: 480px;
+    background-color: #004953;
+    color: white;
+}
+
+.ft p {
+    font-size: 10px;
+}
+
+/* _________________________________ */
+/* Desk */
+@media screen and (max-width:1326px) and (min-width:1024px) {
+    header .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pos {
+        position: absolute;
+        left: 5px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .relative {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .relative .mission,
+    .relative .news {
+        width: 70%;
+        padding: 50px;
+    }
+
+    .relative .take,
+    .relative .subcribe {
+        width: 30%;
+        text-align: center;
+    }
+
+
+}
+
+
+/* Tablets */
+@media screen and (max-width:1023px) {
+    .nav-list {
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    .nav-list a {
+        padding: 5px;
+    }
+
+    .pos {
+        position: absolute;
+        left: 5px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .relative {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .relative .mission,
+    .relative .take,
+    .relative .news,
+    .relative .subcribe {
+        width: 100%;
+    }
+
+    /* ---------- */
+    .about {
+        position: relative;
+        /* left: 100px; */
+        top: 900px;
+    }
+
+    .about {
+        padding: 20px 15px;
+    }
+
+    .about .wrapper {
+        width: 100%;
+    }
+
+    .card-list {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .card {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .about h2,
+    h4 {
+        word-spacing: 5px;
+        font-size: 14px;
+        margin: 15px 0px;
+
+    }
+
+    .details .btn {
+        word-spacing: 5px;
+        font-size: 14px;
+        margin: 15px 0px;
+        font-weight: bold;
+    }
+
+    /* ___________________ */
+    .donate {
+        position: relative;
+        top: 900px;
+    }
+
+    .donate .wrapper {
+        width: 100%;
+    }
+
+    /* _________________ */
+
+    .letest .wrapper {
+        width: 100%;
+    }
+
+    .letest {
+        text-align: center;
+        position: relative;
+        top: 900px;
+    }
+
+    .list-card {
+        width: 100%;
+        display: flex;
+        /* flex-flow: row wrap; */
+    }
+
+    .crd {
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    .ltnes p {
+        text-align: center;
+        color: #367588;
+    }
+
+    .list-card p {
+        text-align: center;
+        color: #367588;
+    }
+
+    /* ------------ */
+
+    .contact {
+        text-align: center;
+        display: flex;
+        position: relative;
+        top: 900px;
+        background-color: #E8E8E8;
+    }
+
+    .contact .wrapper {
+        width: 100%;
+    }
+
+    .list-crd {
+        display: flex;
+    }
+
+    .crd1 {
+        width: 50%;
+        padding-bottom: 30px;
+        margin: 0px 50px;
+    }
+
+    .crd {
+        width: 100%;
+        /* padding: 0px 200px; */
+        margin: 0px 27px;
+    }
+
+    .contact h2 {
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 20px;
+    }
+
+    .ltnes button {
+        margin-left: 5px;
+    }
+
+    /* _------------- */
+
+    .foot,
+    .footer {
+        position: relative;
+        top: 900px;
+    }
+}
+
+
+
+/* Mobile */
+@media screen and (max-width:767px) {
+    .nav-list {
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    .nav-list a {
+        padding: 5px;
+    }
+
+    .pos {
+        position: absolute;
+        left: 5px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .relative {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .relative .mission,
+    .relative .take,
+    .relative .news,
+    .relative .subcribe {
+        width: 100%;
+    }
+
+    /* ------------- */
+    .about {
+        position: relative;
+        /* left: 100px; */
+        top: 1000px;
+    }
+
+    .about {
+        padding: 20px 15px;
+    }
+
+    .about .wrapper {
+        width: 100%;
+    }
+
+    .card-list {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .about h2,
+    h4 {
+        word-spacing: 5px;
+        font-size: 13px;
+        /* margin: 15px 0px; */
+        font-weight: bold;
+        color: #007791;
+
+    }
+
+    .details .btn {
+        word-spacing: 5px;
+        font-size: 13px;
+        /* margin: 15px 0px; */
+        font-weight: bold;
+    }
+
+    /* ----------------- */
+    .donate {
+        position: relative;
+        top: 1000px;
+    }
+
+    .donate .wrapper {
+        width: 100%;
+    }
+.dn p, button{
+    font-size: 10px;
+}
+    /* ----------------- */
+
+
+    .letest .wrapper {
+        width: 100%;
+    }
+
+    .letest {
+        text-align: center;
+        position: relative;
+        top: 1000px;
+    }
+
+    .list-card {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .crd {
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    .ltnes p {
+        text-align: center;
+        color: #367588;
+    }
+
+    .list-card p {
+        text-align: center;
+        color: #367588;
+    }
+
+    /* _------------------ */
+
+    .contact {
+        text-align: center;
+        position: relative;
+        top: 1000px;
+        background-color: #E8E8E8;
+    }
+
+    .contact .wrapper {
+        width: 100%;
+    }
+
+    .list-crd {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .crd1 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .crd {
+        width: 100%;
+        /* padding: 0px 200px; */
+        margin: 0px 50px;
+    }
+
+    .contact h2 {
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 20px;
+    }
+
+    /* _------------- */
+
+    .foot,
+    .footer {
+        position: relative;
+        top: 1000px;
+    }
+}
